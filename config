@@ -219,6 +219,6 @@ bindsym $mod+shift+x exec i3lock -t --image=/home/adrian/Pictures/wallpapers/All
 
 exec firefox
 exec_always feh --bg-scale /home/adrian/Pictures/wallpapers/background.jpg
-exec_always --no-startup-id xset dpms 0 0 3600
+exec_always --no-startup-id xset dpms 3600 3600 3600
 exec_always --no-startup-id xss-lock -- i3lock -n -t --image=/home/adrian/Pictures/wallpapers/AllSeeing_OG_WALL.png
 exec_always xrandr --output DisplayPort-0 --primary --mode 3840x2160 --rate 60 --pos 0x0 --rotate normal --output HDMI-A-0 --mode 3840x2160 --pos 3840x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output DisplayPort-3 --off --output DisplayPort-4 --off --output DisplayPort-5 --off --output DisplayPort-6 --off --output DisplayPort-7 --off
